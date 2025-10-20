@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
+
 class NN:
     def __init__(self,sizes_layers=[784,20,20,10]):
         self.layers = []
